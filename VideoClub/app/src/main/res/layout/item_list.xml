@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/et_fecha_alquiler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fecha Alquiler" />
+
+    <TextView
+        android:id="@+id/et_fecha_hasta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fecha Hasta" />
+
+    <TextView
+        android:id="@+id/et_pelicula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pelicula" />
+
+    <TextView
+        android:id="@+id/et_genero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Genero" />
+
+    <TextView
+        android:id="@+id/et_formato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Formato" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="?android:attr/listDivider" />
+</LinearLayout>
